@@ -23,8 +23,8 @@
                 type: "POST",
                 url: 'data.php',
                 data: {
-                    lat: '1234',
-                    long: '132'
+                    lat: p.coords.latitude,
+                    long: p.coords.longitude
                 },
                 dataType: 'json',
                 success: function(e) {
